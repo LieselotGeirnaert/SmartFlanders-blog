@@ -5,18 +5,18 @@ title: Problems with combining several datasets
 
 ## The problem
 
-If you look today at all the data that's available on the Internet you will come across the following things:
+If you look at all the data that's available on the Internet today, you will come across the following things:
 
-- A lot of formats for every dataset. When we say a lot, we really mean a lot!
+- There are a lot of different formats for every dataset. And when we say a lot, we really mean a lot!
 - Several datasets will provide the same type of information without combining their forces.
-- Everyone has it's own vocabulary
+- Everyone has it's own vocabulary.
 -  ...
 
-THe point here is simple: no standards are available to structure your dataset to achieve interaction with other datasets!
+THe point here is simple: there are no standards available to structure your dataset to achieve interaction with other datasets!
 
 ## How we tried to tackle this problem
 
-We tackled this problem using Linked Open Data. It's a standard developed with a simple purpose: structure your dataset and link it with other datasets.
+We tackled this problem using Linked Open Data. It's developed with a simple purpose: structure your dataset and link it with other datasets.
 The Linked Open Data philosophy allows us to publish our data in a format like JSON-LD and easily transform it to other kinds of Linked Open Data formats automatically.
 This is only possible if we defined our vocabulary first of course! In order to unify the vocabulary, companies and communities created several websites where they publish their standarized vocublary.
 
@@ -36,6 +36,6 @@ I summarized the text in English, the full description is available in the vocab
 |    Definition     | Information that allow us to define in an unque way to street, number, ... of a building. | 
 |      Usage        | Belgian address of a building								|
 
-In the table above you can clearly see that the vocabulary is strictly defined. You know exactly when you have to use it, what's the definition of the vocabulary and so on.
-This way we can fix the mixed vocabulary and easily combine several datasets! Each dataset can extend each other and show any matches between them without writing complex code to map several datasets and check for duplicates in the data.
+In the table above, you can clearly see that the vocabulary is strictly defined. You know exactly when you have to use it, what the definition of the vocabulary is and so on.
+This way we can fix the mixed vocabulary and easily combine several datasets! Each dataset can extend another dataset and can show possible matches between them, without writing complex code to map several datasets and check for duplicates in the data.
 
